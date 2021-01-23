@@ -32,6 +32,8 @@ docker stack deploy --compose-file docker-stack.yml vote
 
 ## Windows Containers
 
+
+Test
 An alternative version of the app uses Windows containers based on Nano Server. This stack runs on .NET Core, using [NATS](https://nats.io) for messaging and [TiDB](https://github.com/pingcap/tidb) for storage.
 
 You can build from source using:
